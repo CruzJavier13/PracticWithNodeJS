@@ -1,0 +1,25 @@
+<%-include('partials/header')%>
+<%-include('partials/navigations')%>
+	<div class="container vh-100 d-flex justify-content-center align-items-center">
+		<div class="card bg-dark text-white text-center">
+			<div class="card-header">
+				<h2>Contact me</h2>
+			</div>
+			<div class="card-body text-start">
+				<form >
+					<div class="mb-3">
+						<label for="email">Email:</label>
+						<input type="email" placeholder="Email" class="form-control">
+					</div>
+					<div class="mb-3">
+						<label for="message">Message:</label>
+						<textarea name="message" rows="3" class="form-control" placeholder="Write a message"></textarea>
+					</div>
+					<button class="btn btn-primary">Save</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+<%-include('partials/footer')%>
